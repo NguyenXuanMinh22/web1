@@ -1,6 +1,6 @@
 <?php
 include("db.php");
-
+// test 
 $date = $_GET['date'] ?? date('Y-m-d');
 $query = "SELECT SUM(TongTien) AS DoanhThu 
           FROM HoaDon 
